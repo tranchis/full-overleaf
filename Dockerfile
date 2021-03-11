@@ -1,4 +1,4 @@
-FROM sharelatex/sharelatex:2.5.1
+FROM sharelatex/sharelatex:2.5.2
 
 RUN tlmgr update --self
 RUN tlmgr install scheme-full
